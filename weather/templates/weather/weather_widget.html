@@ -1,0 +1,88 @@
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+
+<style>
+.weather-widget {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    background: white;
+    text-align: center;
+}
+
+.weather-header {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    width: 100%;
+}
+
+.weather-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.weather-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    margin: 10px;
+    min-width: 100px;
+}
+
+.weather-item i {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.weather-item span {
+    font-size: 1.2em;
+}
+</style>
+
+<div class="weather-widget">
+    <div class="weather-header">
+        <h2>Weather in <span class="city">{{ city }}</span></h2>
+    </div>
+    <div class="weather-body">
+        <div class="weather-item">
+            <i class="fas fa-temperature-high"></i>
+            <span class="temperature">{{ temperature }}°C</span>
+        </div>
+        <div class="weather-item">
+            <i class="fas fa-comments"></i>
+            <span class="description">{{ description }}</span>
+        </div>
+        <div class="weather-item">
+            <i class="fas fa-wind"></i>
+            <span class="wind">{{ wind }} m/s</span>
+        </div>
+        <div class="weather-item">
+            <i class="fas fa-tint"></i>
+            <span class="humidity">{{ humidity }}%</span>
+        </div>
+        <div class="weather-item">
+            <i class="fas fa-cloud-rain"></i>
+            <span class="rain">{{ rain }}</span>
+        </div>
+        <div class="weather-item">
+            <i class="fas fa-thermometer-three-quarters"></i>
+            <span class="feels-like">{{ feels_like }}°C</span>
+        </div>
+    </div>
+</div>
+

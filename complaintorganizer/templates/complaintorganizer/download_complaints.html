@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block content %}
+<head>
+    <style>
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #3a4750;
+            color: #fff;
+            font-size: 2em;
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .card {
+            width: 50%;
+        }
+    </style>
+</head>
+<div class="header">TOOLS/COMPLAINT ORGANIZER</div>
+<div class="container">
+    <div class="card">
+        <div class="card-body">
+            <form method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Download</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    {% if messages %}
+        <ul class="messages">
+            {% for message in messages %}
+                <li>{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</div>
+{% endblock %}

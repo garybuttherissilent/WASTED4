@@ -1,0 +1,952 @@
+Watching for file changes with StatReloader
+/Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/wastedproject/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/analytics/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/analytics/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/analytics/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/analytics/views.py changed, reloading.
+Watching for file changes with StatReloader
+Starting new HTTP connection (1): api.openweathermap.org:80
+http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 HTTP/1.1" 200 512
+dashboard_home_routes was called - path: /analytics/dashboard_route/, method: GET
+dashboard_view_routes was called - path: /analytics/dashboard_route/view/, method: GET
+/Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/analytics/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/complaintorganizer/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/streetseeker2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/wastedbot/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/wastedbot/views.py changed, reloading.
+Watching for file changes with StatReloader
+Starting new HTTP connection (1): api.openweathermap.org:80
+http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 HTTP/1.1" 200 512
+dashboard_home_routes was called - path: /analytics/dashboard_route/, method: GET
+dashboard_view_routes was called - path: /analytics/dashboard_route/view/, method: GET
+dashboard_home_fractions was called - path: /analytics/dashboard_fraction/, method: GET
+dashboard_view_fractions was called - path: /analytics/dashboard_fraction/view/, method: GET
+complaint organizer was called - path: /complaintorganizer/download-complaints/, method: GET
+complaint organizer was called - path: /complaintorganizer/download-complaints/, method: GET
+complaint organizer was called - path: /complaintorganizer/download-complaints/, method: POST
+dabba maker was called - path: /dabbamaker/, method: GET
+dabba maker was called - path: /dabbamaker/, method: POST
+Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+https://nominatim.openstreetmap.org:443 "GET /search?q=Halewijnstationstraat%2054,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+https://nominatim.openstreetmap.org:443 "GET /search?q=Hof%20van%20Eden%2039,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+https://nominatim.openstreetmap.org:443 "GET /search?q=Kapelakker%208,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+https://nominatim.openstreetmap.org:443 "GET /search?q=Rodehoedstraat%2044,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+https://nominatim.openstreetmap.org:443 "GET /search?q=Guldenroedestraat%2014,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+https://nominatim.openstreetmap.org:443 "GET /search?q=Hippoliet%20Van%20Peenestraat%2052,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+https://nominatim.openstreetmap.org:443 "GET /search?q=Tussen%20Heerwegen%2012,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+https://nominatim.openstreetmap.org:443 "GET /search?q=Zandekensstraat%2013,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+https://nominatim.openstreetmap.org:443 "GET /search?q=Blekerijstraat%2053,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+https://nominatim.openstreetmap.org:443 "GET /search?q=Jan%20van%20Hembysebolwerk%206,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+https://nominatim.openstreetmap.org:443 "GET /search?q=Korhoenstraat%202,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+https://nominatim.openstreetmap.org:443 "GET /search?q=Lange%20Violettestraat%20253,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+https://nominatim.openstreetmap.org:443 "GET /search?q=Ramskapellelaan%2018,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+https://nominatim.openstreetmap.org:443 "GET /search?q=Rijsenbergstraat%2074,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+https://nominatim.openstreetmap.org:443 "GET /search?q=Zwartezustersstraat%206,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+https://nominatim.openstreetmap.org:443 "GET /search?q=Benninsbrugstraat%207,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+https://nominatim.openstreetmap.org:443 "GET /search?q=Karekietlaan%201,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+https://nominatim.openstreetmap.org:443 "GET /search?q=Morekstraat%20452,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+https://nominatim.openstreetmap.org:443 "GET /search?q=Achtenkouterstraat%205,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+https://nominatim.openstreetmap.org:443 "GET /search?q=Bruisteke%203,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+https://nominatim.openstreetmap.org:443 "GET /search?q=Gentstraat%20196,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+https://nominatim.openstreetmap.org:443 "GET /search?q=Lourdesstraat%2068,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+https://nominatim.openstreetmap.org:443 "GET /search?q=Lourdesstraat%2087,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+https://nominatim.openstreetmap.org:443 "GET /search?q=Oude%20Holstraat%2019,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+https://nominatim.openstreetmap.org:443 "GET /search?q=Halvemaanstraat%2055,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+https://nominatim.openstreetmap.org:443 "GET /search?q=Lijnmolenstraat%20123,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+https://nominatim.openstreetmap.org:443 "GET /search?q=Nachtegaaldreef%2074,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+https://nominatim.openstreetmap.org:443 "GET /search?q=Waterstraat%20135,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+https://nominatim.openstreetmap.org:443 "GET /search?q=Waterstraat%20165,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+https://nominatim.openstreetmap.org:443 "GET /search?q=Braemstraat%20161,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+https://nominatim.openstreetmap.org:443 "GET /search?q=Hutsepotstraat%2089,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+dabba maker was called - path: /dabbamaker/, method: GET
+shift scheduler was called - path: /shiftscheduler/, method: GET
+shift scheduler was called - path: /shiftscheduler/, method: POST
+/Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/wastedproject/settings.py changed, reloading.
+2023-06-08 14:56:08,094 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-06-08 14:56:10,423 [DEBUG] urllib3.connectionpool: Starting new HTTP connection (1): api.openweathermap.org:80
+2023-06-08 14:56:10,476 [DEBUG] urllib3.connectionpool: http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 HTTP/1.1" 200 512
+2023-06-08 14:56:52,553 [INFO] analytics.views: dashboard_home_routes was called - path: /analytics/dashboard_route/, method: GET
+2023-06-08 14:56:59,820 [INFO] analytics.views: dashboard_view_routes was called - path: /analytics/dashboard_route/view/, method: GET
+2023-06-08 16:34:02,679 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-06-08 16:34:04,813 [DEBUG] urllib3.connectionpool: Starting new HTTP connection (1): api.openweathermap.org:80
+2023-06-08 16:34:04,872 [DEBUG] urllib3.connectionpool: http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 HTTP/1.1" 200 515
+2023-06-08 16:35:24,371 [INFO] analytics.views: dashboard_home_routes was called - path: /analytics/dashboard_route/, method: GET
+2023-06-08 16:35:37,850 [INFO] analytics.views: dashboard_view_routes was called - path: /analytics/dashboard_route/view/, method: GET
+2023-06-08 16:36:10,045 [INFO] analytics.views: dashboard_view_routes was called - path: /analytics/dashboard_route/view/, method: GET
+2023-06-08 16:37:55,038 [INFO] analytics.views: dashboard_home_fractions was called - path: /analytics/dashboard_fraction/, method: GET
+2023-06-08 16:38:23,437 [INFO] analytics.views: dashboard_view_fractions was called - path: /analytics/dashboard_fraction/view/, method: GET
+2023-06-08 16:38:23,548 [ERROR] django.request: Internal Server Error: /analytics/dashboard_fraction/view/
+Traceback (most recent call last):
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'total_weight'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/analytics/views.py", line 109, in dashboard_view_fractions
+    stats = Order.objects.get_stats_for_fraction(fraction, city_or_rural, day_of_week, start_date, end_date)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/analytics/utils/data_analysis.py", line 127, in get_stats_for_fraction
+    weights_month = df_month['total_weight'].values
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'total_weight'
+2023-06-08 16:38:31,836 [INFO] analytics.views: dashboard_view_fractions was called - path: /analytics/dashboard_fraction/view/, method: GET
+2023-06-08 16:39:28,216 [INFO] complaintorganizer.views: complaint organizer was called - path: /complaintorganizer/download-complaints/, method: GET
+2023-06-08 16:39:31,874 [INFO] complaintorganizer.views: complaint organizer was called - path: /complaintorganizer/download-complaints/, method: GET
+2023-06-08 16:39:41,628 [INFO] complaintorganizer.views: complaint organizer was called - path: /complaintorganizer/download-complaints/, method: POST
+2023-06-08 16:40:13,515 [INFO] complaintorganizer.views: complaint organizer was called - path: /complaintorganizer/download-complaints/, method: POST
+2023-06-08 16:40:52,640 [INFO] dabbamaker.views: dabba maker was called - path: /dabbamaker/, method: GET
+2023-06-08 16:41:05,890 [INFO] dabbamaker.views: dabba maker was called - path: /dabbamaker/, method: POST
+2023-06-08 16:41:06,005 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 16:41:06,452 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Halewijnstationstraat%2054,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 16:41:06,456 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 16:41:07,013 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Hof%20van%20Eden%2039,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 16:41:07,024 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 16:41:07,533 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Kapelakker%208,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 16:41:07,544 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 16:41:07,952 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Rodehoedstraat%2044,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 16:41:07,962 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 16:41:08,472 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Guldenroedestraat%2014,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 16:41:08,480 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 16:41:08,996 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Hippoliet%20Van%20Peenestraat%2052,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 16:41:09,007 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 16:41:09,518 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Tussen%20Heerwegen%2012,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 16:41:09,526 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 16:41:10,039 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Zandekensstraat%2013,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 16:41:10,049 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 16:41:10,457 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Blekerijstraat%2053,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 16:41:10,471 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 16:41:10,980 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Jan%20van%20Hembysebolwerk%206,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 16:41:10,991 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 16:41:11,502 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Korhoenstraat%202,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 16:41:11,515 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 16:41:12,024 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Lange%20Violettestraat%20253,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 16:41:12,034 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 16:41:12,546 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Ramskapellelaan%2018,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 16:41:12,559 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 16:41:12,965 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Rijsenbergstraat%2074,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 16:41:12,976 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 16:41:13,486 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Zwartezustersstraat%206,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 16:41:13,497 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 16:41:13,952 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Benninsbrugstraat%207,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 16:41:13,961 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 16:41:14,531 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Karekietlaan%201,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 16:41:14,541 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 16:41:15,053 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Morekstraat%20452,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 16:41:15,063 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 16:41:15,471 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Achtenkouterstraat%205,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 16:41:15,480 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 16:41:15,993 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Bruisteke%203,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 16:41:16,004 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 16:41:16,515 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Gentstraat%20196,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 16:41:16,525 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 16:41:17,037 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Lourdesstraat%2068,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 16:41:17,047 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 16:41:17,457 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Lourdesstraat%2087,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 16:41:17,468 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 16:41:17,977 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Oude%20Holstraat%2019,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 16:41:17,988 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 16:41:18,502 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Halvemaanstraat%2055,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 16:41:18,512 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 16:41:19,022 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Lijnmolenstraat%20123,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 16:41:19,032 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 16:41:19,547 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Nachtegaaldreef%2074,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 16:41:19,557 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 16:41:20,066 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Waterstraat%20135,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 16:41:20,077 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 16:41:20,470 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Waterstraat%20165,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 16:41:20,479 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 16:41:20,959 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Braemstraat%20161,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 16:41:20,964 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 16:41:21,456 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Hutsepotstraat%2089,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 16:41:26,571 [INFO] dabbamaker.views: dabba maker was called - path: /dabbamaker/, method: GET
+2023-06-08 16:43:01,551 [INFO] shiftscheduler.views: shift scheduler was called - path: /shiftscheduler/, method: GET
+2023-06-08 16:43:03,831 [INFO] shiftscheduler.views: shift scheduler was called - path: /shiftscheduler/, method: GET
+2023-06-08 16:43:09,660 [INFO] shiftscheduler.views: shift scheduler was called - path: /shiftscheduler/, method: POST
+2023-06-08 16:47:48,970 [DEBUG] urllib3.connectionpool: Starting new HTTP connection (1): api.openweathermap.org:80
+2023-06-08 16:47:49,035 [DEBUG] urllib3.connectionpool: http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 HTTP/1.1" 200 515
+2023-06-08 17:04:26,068 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-06-08 17:04:27,296 [DEBUG] urllib3.connectionpool: Starting new HTTP connection (1): api.openweathermap.org:80
+2023-06-08 17:04:27,339 [DEBUG] urllib3.connectionpool: http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 HTTP/1.1" 200 515
+2023-06-08 17:05:22,535 [INFO] analytics.views: dashboard_home_routes was called - path: /analytics/dashboard_route/, method: GET
+2023-06-08 17:05:25,716 [INFO] analytics.views: dashboard_view_routes was called - path: /analytics/dashboard_route/view/, method: GET
+2023-06-08 17:05:33,284 [INFO] analytics.views: dashboard_home_fractions was called - path: /analytics/dashboard_fraction/, method: GET
+2023-06-08 17:05:39,492 [INFO] analytics.views: dashboard_view_fractions was called - path: /analytics/dashboard_fraction/view/, method: GET
+2023-06-08 17:05:47,434 [INFO] complaintorganizer.views: complaint organizer was called - path: /complaintorganizer/download-complaints/, method: GET
+2023-06-08 17:05:50,613 [INFO] complaintorganizer.views: complaint organizer was called - path: /complaintorganizer/download-complaints/, method: GET
+2023-06-08 17:05:53,801 [INFO] complaintorganizer.views: complaint organizer was called - path: /complaintorganizer/download-complaints/, method: POST
+2023-06-08 17:06:06,383 [INFO] dabbamaker.views: dabba maker was called - path: /dabbamaker/, method: GET
+2023-06-08 17:06:12,785 [INFO] dabbamaker.views: dabba maker was called - path: /dabbamaker/, method: POST
+2023-06-08 17:06:12,878 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 17:06:13,003 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Halewijnstationstraat%2054,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 17:06:13,011 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 17:06:13,564 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Hof%20van%20Eden%2039,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 17:06:13,573 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 17:06:14,087 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Kapelakker%208,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 17:06:14,098 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 17:06:14,609 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Rodehoedstraat%2044,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 17:06:14,619 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 17:06:15,027 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Guldenroedestraat%2014,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 17:06:15,036 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 17:06:15,549 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Hippoliet%20Van%20Peenestraat%2052,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 17:06:15,558 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 17:06:16,071 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Tussen%20Heerwegen%2012,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 17:06:16,083 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 17:06:16,698 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Zandekensstraat%2013,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 17:06:16,707 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 17:06:17,116 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Blekerijstraat%2053,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 17:06:17,125 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 17:06:17,536 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Jan%20van%20Hembysebolwerk%206,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 17:06:17,546 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 17:06:18,056 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Korhoenstraat%202,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 17:06:18,067 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 17:06:18,580 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Lange%20Violettestraat%20253,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 17:06:18,589 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 17:06:19,100 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Ramskapellelaan%2018,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 17:06:19,110 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 17:06:19,517 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Rijsenbergstraat%2074,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 17:06:19,525 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 17:06:20,041 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Zwartezustersstraat%206,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 17:06:20,051 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 17:06:20,562 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Benninsbrugstraat%207,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 17:06:20,570 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 17:06:21,085 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Karekietlaan%201,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 17:06:21,096 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 17:06:21,502 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Morekstraat%20452,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 17:06:21,515 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 17:06:22,024 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Achtenkouterstraat%205,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 17:06:22,035 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 17:06:22,547 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Bruisteke%203,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 17:06:22,560 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 17:06:23,069 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Gentstraat%20196,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 17:06:23,080 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 17:06:23,591 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Lourdesstraat%2068,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 17:06:23,604 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 17:06:24,114 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Lourdesstraat%2087,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 17:06:24,122 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 17:06:24,532 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Oude%20Holstraat%2019,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 17:06:24,540 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 17:06:25,053 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Halvemaanstraat%2055,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 17:06:25,063 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 17:06:25,576 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Lijnmolenstraat%20123,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 17:06:25,585 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 17:06:26,098 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Nachtegaaldreef%2074,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 17:06:26,106 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 17:06:26,620 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Waterstraat%20135,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 17:06:26,631 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 17:06:27,038 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Waterstraat%20165,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 17:06:27,048 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 17:06:27,561 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Braemstraat%20161,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 17:06:27,570 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-08 17:06:28,083 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Hutsepotstraat%2089,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-08 17:06:33,192 [INFO] dabbamaker.views: dabba maker was called - path: /dabbamaker/, method: GET
+2023-06-08 21:00:02,082 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-06-08 21:00:04,679 [DEBUG] urllib3.connectionpool: Starting new HTTP connection (1): api.openweathermap.org:80
+2023-06-08 21:00:04,907 [DEBUG] urllib3.connectionpool: http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 HTTP/1.1" 200 515
+2023-06-08 21:00:14,801 [DEBUG] urllib3.connectionpool: Starting new HTTP connection (1): api.openweathermap.org:80
+2023-06-08 21:00:14,890 [DEBUG] urllib3.connectionpool: http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 HTTP/1.1" 200 513
+2023-06-08 21:00:18,631 [INFO] analytics.views: dashboard_home_fractions was called - path: /analytics/dashboard_fraction/, method: GET
+2023-06-08 21:00:35,026 [INFO] analytics.views: dashboard_view_fractions was called - path: /analytics/dashboard_fraction/view/, method: GET
+2023-06-08 21:01:07,807 [INFO] complaintorganizer.views: complaint organizer was called - path: /complaintorganizer/download-complaints/, method: GET
+2023-06-08 21:01:11,365 [INFO] complaintorganizer.views: complaint organizer was called - path: /complaintorganizer/download-complaints/, method: GET
+2023-06-08 21:01:17,091 [INFO] complaintorganizer.views: complaint organizer was called - path: /complaintorganizer/download-complaints/, method: POST
+2023-06-13 18:50:56,707 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-06-13 18:50:59,743 [DEBUG] urllib3.connectionpool: Starting new HTTP connection (1): api.openweathermap.org:80
+2023-06-13 18:50:59,843 [DEBUG] urllib3.connectionpool: http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 HTTP/1.1" 200 511
+2023-06-13 18:51:33,748 [INFO] complaintorganizer.views: complaint organizer was called - path: /complaintorganizer/download-complaints/, method: GET
+2023-06-13 18:52:18,384 [INFO] shiftscheduler.views: shift scheduler was called - path: /shiftscheduler/, method: GET
+2023-06-13 18:54:01,883 [INFO] analytics.views: dashboard_home_fractions was called - path: /analytics/dashboard_fraction/, method: GET
+2023-06-13 18:54:07,147 [INFO] analytics.views: dashboard_view_fractions was called - path: /analytics/dashboard_fraction/view/, method: GET
+2023-06-14 18:21:01,927 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-06-14 18:21:04,084 [DEBUG] urllib3.connectionpool: Starting new HTTP connection (1): api.openweathermap.org:80
+2023-06-14 18:21:04,178 [DEBUG] urllib3.connectionpool: http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 HTTP/1.1" 200 513
+2023-06-14 18:22:07,353 [INFO] dabbamaker.views: dabba maker was called - path: /dabbamaker/, method: GET
+2023-06-14 18:22:12,940 [INFO] dabbamaker.views: dabba maker was called - path: /dabbamaker/, method: POST
+2023-06-14 18:22:13,054 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-14 18:22:13,256 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Halewijnstationstraat%2054,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-14 18:22:13,266 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-14 18:22:13,759 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Hof%20van%20Eden%2039,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-14 18:22:13,770 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-14 18:22:14,372 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Kapelakker%208,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-14 18:22:14,382 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-14 18:22:14,881 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Rodehoedstraat%2044,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-14 18:22:14,890 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-14 18:22:15,278 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Guldenroedestraat%2014,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-14 18:22:15,287 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-14 18:22:15,747 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Hippoliet%20Van%20Peenestraat%2052,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-14 18:22:15,753 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-14 18:22:16,250 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Tussen%20Heerwegen%2012,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-14 18:22:16,260 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-14 18:22:16,832 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Zandekensstraat%2013,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-14 18:22:16,843 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-14 18:22:17,342 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Blekerijstraat%2053,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-14 18:22:17,351 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-14 18:22:17,869 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Jan%20van%20Hembysebolwerk%206,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-14 18:22:17,876 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-14 18:22:18,257 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Korhoenstraat%202,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-14 18:22:18,266 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-14 18:22:18,772 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Lange%20Violettestraat%20253,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-14 18:22:18,782 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-14 18:22:19,272 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Ramskapellelaan%2018,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-14 18:22:19,281 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-14 18:22:19,899 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Rijsenbergstraat%2074,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-14 18:22:19,911 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-14 18:22:20,250 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Zwartezustersstraat%206,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-14 18:22:20,261 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-14 18:22:20,924 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Benninsbrugstraat%207,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-14 18:22:20,933 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-14 18:22:21,429 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Karekietlaan%201,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-14 18:22:21,439 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-14 18:22:21,947 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Morekstraat%20452,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-14 18:22:21,957 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-14 18:22:22,254 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Achtenkouterstraat%205,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-14 18:22:22,265 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-14 18:22:22,745 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Bruisteke%203,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-14 18:22:22,750 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-14 18:22:23,285 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Gentstraat%20196,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-14 18:22:23,292 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-14 18:22:23,893 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Lourdesstraat%2068,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-14 18:22:23,903 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-14 18:22:24,329 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Lourdesstraat%2087,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-14 18:22:24,337 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-14 18:22:24,917 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Oude%20Holstraat%2019,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-14 18:22:24,925 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-14 18:22:25,270 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Halvemaanstraat%2055,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-14 18:22:25,278 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-14 18:22:25,941 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Lijnmolenstraat%20123,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-14 18:22:25,949 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-14 18:22:26,428 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Nachtegaaldreef%2074,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-14 18:22:26,437 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-14 18:22:26,888 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Waterstraat%20135,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-14 18:22:26,900 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-14 18:22:27,258 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Waterstraat%20165,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-14 18:22:27,268 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-14 18:22:27,887 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Braemstraat%20161,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-14 18:22:27,897 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-14 18:22:28,358 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Hutsepotstraat%2089,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-14 18:22:33,470 [INFO] dabbamaker.views: dabba maker was called - path: /dabbamaker/, method: GET
+2023-06-14 18:22:41,632 [INFO] shiftscheduler.views: shift scheduler was called - path: /shiftscheduler/, method: GET
+2023-06-14 18:22:46,175 [INFO] analytics.views: dashboard_home_routes was called - path: /analytics/dashboard_route/, method: GET
+2023-06-14 18:23:04,454 [INFO] analytics.views: dashboard_view_routes was called - path: /analytics/dashboard_route/view/, method: GET
+2023-06-15 08:24:12,109 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-06-15 08:24:14,063 [DEBUG] urllib3.connectionpool: Starting new HTTP connection (1): api.openweathermap.org:80
+2023-06-15 08:24:14,170 [DEBUG] urllib3.connectionpool: http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 HTTP/1.1" 200 511
+2023-06-15 08:24:15,056 [WARNING] django.request: Not Found: /favicon.ico
+2023-06-15 08:45:48,024 [DEBUG] urllib3.connectionpool: Starting new HTTP connection (1): api.openweathermap.org:80
+2023-06-15 08:45:48,124 [DEBUG] urllib3.connectionpool: http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 HTTP/1.1" 200 512
+2023-06-15 08:56:44,462 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-06-15 08:56:46,050 [DEBUG] urllib3.connectionpool: Starting new HTTP connection (1): api.openweathermap.org:80
+2023-06-15 08:56:46,561 [DEBUG] urllib3.connectionpool: http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 HTTP/1.1" 200 511
+2023-06-16 06:53:10,592 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-06-16 06:53:12,662 [DEBUG] urllib3.connectionpool: Starting new HTTP connection (1): api.openweathermap.org:80
+2023-06-16 06:53:12,755 [DEBUG] urllib3.connectionpool: http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 HTTP/1.1" 200 518
+2023-06-16 06:53:15,400 [INFO] complaintorganizer.views: complaint organizer was called - path: /complaintorganizer/download-complaints/, method: GET
+2023-06-16 06:53:49,873 [DEBUG] urllib3.connectionpool: Starting new HTTP connection (1): api.openweathermap.org:80
+2023-06-16 06:53:49,982 [DEBUG] urllib3.connectionpool: http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 HTTP/1.1" 200 518
+2023-06-16 06:54:23,653 [INFO] complaintorganizer.views: complaint organizer was called - path: /complaintorganizer/download-complaints/, method: GET
+2023-06-16 06:54:42,515 [INFO] complaintorganizer.views: complaint organizer was called - path: /complaintorganizer/download-complaints/, method: POST
+2023-06-16 07:14:17,144 [INFO] analytics.views: dashboard_home_routes was called - path: /analytics/dashboard_route/, method: GET
+2023-06-16 07:14:23,613 [INFO] analytics.views: dashboard_view_routes was called - path: /analytics/dashboard_route/view/, method: GET
+2023-06-16 07:14:23,768 [ERROR] django.request: Internal Server Error: /analytics/dashboard_route/view/
+Traceback (most recent call last):
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3652, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'total_weight'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/analytics/views.py", line 43, in dashboard_view_routes
+    count_days_weight_range = Order.objects.count_days_per_weight_range(route_id, [0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000, 12000, 13000, 14000, 15000], start_date, end_date)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/analytics/utils/data_analysis.py", line 69, in count_days_per_weight_range
+    count = df[(df['total_weight'] >= bins[i]) & (df['total_weight'] < bins[i + 1])].count()['date']
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3654, in get_loc
+    raise KeyError(key) from err
+KeyError: 'total_weight'
+2023-06-16 07:50:34,190 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-06-16 07:50:35,513 [DEBUG] urllib3.connectionpool: Starting new HTTP connection (1): api.openweathermap.org:80
+2023-06-16 07:50:35,611 [DEBUG] urllib3.connectionpool: http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 HTTP/1.1" 200 518
+2023-06-16 07:50:39,870 [INFO] complaintorganizer.views: complaint organizer was called - path: /complaintorganizer/download-complaints/, method: GET
+2023-06-16 21:23:18,467 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-06-16 21:23:42,429 [INFO] django.utils.autoreload: /Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/complaintpreparator/views.py changed, reloading.
+2023-06-16 21:23:42,774 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-06-16 21:23:44,154 [DEBUG] urllib3.connectionpool: Starting new HTTP connection (1): api.openweathermap.org:80
+2023-06-16 21:23:44,227 [DEBUG] urllib3.connectionpool: http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 HTTP/1.1" 200 514
+2023-06-16 21:23:46,709 [INFO] complaintorganizer.views: complaint organizer was called - path: /complaintorganizer/download-complaints/, method: GET
+2023-06-16 21:24:02,263 [ERROR] django.request: Internal Server Error: /complaintpreparator/download-complaints/
+Traceback (most recent call last):
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/complaintpreparator/views.py", line 34, in download_complaints
+    return render(request, 'download_complaints.html', {'form': form})
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: download_complaints.html
+2023-06-16 21:24:44,964 [WARNING] django.request: Not Found: /complaintpreparator/download_complaints/
+2023-06-16 21:26:38,981 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-06-16 21:26:40,556 [DEBUG] urllib3.connectionpool: Starting new HTTP connection (1): api.openweathermap.org:80
+2023-06-16 21:26:40,642 [DEBUG] urllib3.connectionpool: http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 HTTP/1.1" 200 514
+2023-06-16 21:26:43,202 [ERROR] django.request: Internal Server Error: /complaintpreparator/download-complaints/
+Traceback (most recent call last):
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/complaintpreparator/views.py", line 34, in download_complaints
+    return render(request, 'download_complaints.html', {'form': form})
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: download_complaints.html
+2023-06-16 21:29:44,940 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-06-16 21:29:46,490 [DEBUG] urllib3.connectionpool: Starting new HTTP connection (1): api.openweathermap.org:80
+2023-06-16 21:29:46,559 [DEBUG] urllib3.connectionpool: http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 HTTP/1.1" 200 514
+2023-06-16 21:29:49,201 [ERROR] django.request: Internal Server Error: /complaintpreparator/download-complaints/
+Traceback (most recent call last):
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/complaintpreparator/views.py", line 34, in download_complaints
+    return render(request, 'download_complaints.html', {'form': form})
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: download_complaints.html
+2023-06-16 21:30:39,088 [INFO] django.utils.autoreload: /Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/complaintpreparator/views.py changed, reloading.
+2023-06-16 21:30:39,439 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-06-16 21:30:41,044 [DEBUG] urllib3.connectionpool: Starting new HTTP connection (1): api.openweathermap.org:80
+2023-06-16 21:30:41,139 [DEBUG] urllib3.connectionpool: http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 HTTP/1.1" 200 514
+2023-06-16 21:30:46,523 [ERROR] django.request: Internal Server Error: /complaintpreparator/download-complaints/
+Traceback (most recent call last):
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/complaintpreparator/views.py", line 25, in download_complaints
+    excel_writer.save()
+AttributeError: 'OpenpyxlWriter' object has no attribute 'save'
+2023-06-16 21:33:59,450 [INFO] django.utils.autoreload: /Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/complaintpreparator/views.py changed, reloading.
+2023-06-16 21:33:59,892 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-06-16 21:34:04,150 [DEBUG] urllib3.connectionpool: Starting new HTTP connection (1): api.openweathermap.org:80
+2023-06-16 21:34:04,221 [DEBUG] urllib3.connectionpool: http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 HTTP/1.1" 200 514
+2023-06-16 21:34:09,388 [ERROR] django.request: Internal Server Error: /complaintpreparator/download-complaints/
+Traceback (most recent call last):
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/complaintpreparator/views.py", line 19, in download_complaints
+    with pd.ExcelWriter('complaints.xlsx', engine='openpyxl') as excel_writer:
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1322, in __exit__
+    self.close()
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1326, in close
+    self._save()
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/pandas/io/excel/_openpyxl.py", line 109, in _save
+    self.book.save(self._handles.handle)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/openpyxl/workbook/workbook.py", line 386, in save
+    save_workbook(self, filename)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/openpyxl/writer/excel.py", line 294, in save_workbook
+    writer.save()
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/openpyxl/writer/excel.py", line 275, in save
+    self.write_data()
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/openpyxl/writer/excel.py", line 89, in write_data
+    archive.writestr(ARC_WORKBOOK, writer.write())
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/openpyxl/workbook/_writer.py", line 150, in write
+    self.write_views()
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/openpyxl/workbook/_writer.py", line 137, in write_views
+    active = get_active_sheet(self.wb)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/openpyxl/workbook/_writer.py", line 35, in get_active_sheet
+    raise IndexError("At least one sheet must be visible")
+IndexError: At least one sheet must be visible
+2023-06-16 21:37:30,052 [INFO] django.utils.autoreload: /Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/complaintpreparator/views.py changed, reloading.
+2023-06-16 21:37:30,473 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-06-16 21:37:32,650 [DEBUG] urllib3.connectionpool: Starting new HTTP connection (1): api.openweathermap.org:80
+2023-06-16 21:37:32,713 [DEBUG] urllib3.connectionpool: http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 HTTP/1.1" 200 514
+2023-06-16 21:58:43,470 [INFO] django.utils.autoreload: /Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/complaintpreparator/views.py changed, reloading.
+2023-06-16 21:58:43,950 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-06-16 21:58:45,241 [DEBUG] urllib3.connectionpool: Starting new HTTP connection (1): api.openweathermap.org:80
+2023-06-16 21:58:45,347 [DEBUG] urllib3.connectionpool: http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 HTTP/1.1" 200 514
+2023-06-16 21:58:51,312 [ERROR] django.request: Internal Server Error: /complaintpreparator/download-complaints/
+Traceback (most recent call last):
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/complaintpreparator/views.py", line 30, in download_complaints
+    queryset = ComplaintQuerySet().get_latest_complaints_by_route(route.route_id)
+  File "/Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/analytics/utils/data_analysis.py", line 218, in get_latest_complaints_by_route
+    complaints = self.filter(route=route).select_related('street_address').order_by('complaint_date')[:limit]
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1502, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1533, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1383, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1193, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1681, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'route' into field. Choices are: 
+2023-06-16 22:06:47,025 [INFO] django.utils.autoreload: /Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/complaintpreparator/views.py changed, reloading.
+2023-06-16 22:06:47,486 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-06-16 22:10:35,960 [INFO] django.utils.autoreload: /Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/complaintpreparator/views.py changed, reloading.
+2023-06-16 22:10:36,441 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-06-16 22:10:37,789 [DEBUG] urllib3.connectionpool: Starting new HTTP connection (1): api.openweathermap.org:80
+2023-06-16 22:10:37,871 [DEBUG] urllib3.connectionpool: http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 HTTP/1.1" 200 514
+2023-06-16 22:10:41,620 [ERROR] django.request: Internal Server Error: /complaintpreparator/download-complaints/
+Traceback (most recent call last):
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/complaintpreparator/views.py", line 27, in download_complaints
+    queryset = ComplaintQuerySet().get_latest_complaints_by_route(route.id)
+AttributeError: 'Route' object has no attribute 'id'
+2023-06-16 22:11:42,878 [INFO] django.utils.autoreload: /Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/complaintpreparator/views.py changed, reloading.
+2023-06-16 22:11:43,337 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-06-16 22:11:44,404 [DEBUG] urllib3.connectionpool: Starting new HTTP connection (1): api.openweathermap.org:80
+2023-06-16 22:11:44,474 [DEBUG] urllib3.connectionpool: http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 HTTP/1.1" 200 514
+2023-06-16 22:11:48,154 [ERROR] django.request: Internal Server Error: /complaintpreparator/download-complaints/
+Traceback (most recent call last):
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/complaintpreparator/views.py", line 27, in download_complaints
+    queryset = ComplaintQuerySet().get_latest_complaints_by_route(route.route_id)
+  File "/Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/analytics/utils/data_analysis.py", line 218, in get_latest_complaints_by_route
+    complaints = self.filter(route=route).select_related('street_address').order_by('complaint_date')[:limit]
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1502, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1533, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1383, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1193, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1681, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'route' into field. Choices are: 
+2023-06-16 22:13:50,107 [INFO] django.utils.autoreload: /Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/complaintpreparator/views.py changed, reloading.
+2023-06-16 22:13:50,626 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-06-16 22:15:28,747 [INFO] django.utils.autoreload: /Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/complaintpreparator/views.py changed, reloading.
+2023-06-16 22:15:29,197 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-06-16 22:15:30,354 [DEBUG] urllib3.connectionpool: Starting new HTTP connection (1): api.openweathermap.org:80
+2023-06-16 22:15:30,464 [DEBUG] urllib3.connectionpool: http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 HTTP/1.1" 200 514
+2023-06-16 22:18:59,890 [INFO] django.utils.autoreload: /Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/complaintpreparator/views.py changed, reloading.
+2023-06-16 22:19:00,320 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-06-16 22:19:04,617 [DEBUG] urllib3.connectionpool: Starting new HTTP connection (1): api.openweathermap.org:80
+2023-06-16 22:19:04,683 [DEBUG] urllib3.connectionpool: http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 HTTP/1.1" 200 514
+2023-06-16 22:19:09,140 [ERROR] django.request: Internal Server Error: /complaintpreparator/download-complaints/
+Traceback (most recent call last):
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/complaintpreparator/views.py", line 28, in download_complaints
+    df = queryset.to_dataframe()
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/pandas/core/generic.py", line 5989, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'DataFrame' object has no attribute 'to_dataframe'
+2023-06-16 22:20:36,259 [INFO] django.utils.autoreload: /Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/complaintpreparator/views.py changed, reloading.
+2023-06-16 22:20:36,728 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-06-16 22:20:39,391 [DEBUG] urllib3.connectionpool: Starting new HTTP connection (1): api.openweathermap.org:80
+2023-06-16 22:20:39,599 [DEBUG] urllib3.connectionpool: http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 HTTP/1.1" 200 515
+2023-06-16 22:20:43,568 [ERROR] django.request: Internal Server Error: /complaintpreparator/download-complaints/
+Traceback (most recent call last):
+  File "/Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/complaintpreparator/views.py", line 34, in download_complaints
+    create_styled_excel(df, sheet_name=route_id, excel_writer=excel_writer)
+TypeError: create_styled_excel() got an unexpected keyword argument 'sheet_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/complaintpreparator/views.py", line 32, in download_complaints
+    with pd.ExcelWriter('complaints.xlsx', engine='openpyxl') as excel_writer:
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1322, in __exit__
+    self.close()
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1326, in close
+    self._save()
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/pandas/io/excel/_openpyxl.py", line 109, in _save
+    self.book.save(self._handles.handle)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/openpyxl/workbook/workbook.py", line 386, in save
+    save_workbook(self, filename)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/openpyxl/writer/excel.py", line 294, in save_workbook
+    writer.save()
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/openpyxl/writer/excel.py", line 275, in save
+    self.write_data()
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/openpyxl/writer/excel.py", line 89, in write_data
+    archive.writestr(ARC_WORKBOOK, writer.write())
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/openpyxl/workbook/_writer.py", line 150, in write
+    self.write_views()
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/openpyxl/workbook/_writer.py", line 137, in write_views
+    active = get_active_sheet(self.wb)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/openpyxl/workbook/_writer.py", line 35, in get_active_sheet
+    raise IndexError("At least one sheet must be visible")
+IndexError: At least one sheet must be visible
+2023-06-16 22:26:52,845 [INFO] django.utils.autoreload: /Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/complaintpreparator/views.py changed, reloading.
+2023-06-16 22:26:53,260 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-06-16 22:26:58,240 [DEBUG] urllib3.connectionpool: Starting new HTTP connection (1): api.openweathermap.org:80
+2023-06-16 22:26:58,305 [DEBUG] urllib3.connectionpool: http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 HTTP/1.1" 200 515
+2023-06-16 22:27:02,742 [ERROR] django.request: Internal Server Error: /complaintpreparator/download-complaints/
+Traceback (most recent call last):
+  File "/Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/complaintpreparator/views.py", line 34, in download_complaints
+    create_styled_excel(df, sheet_name=route_id, excel_writer=excel_writer)
+TypeError: create_styled_excel() got an unexpected keyword argument 'sheet_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/complaintpreparator/views.py", line 32, in download_complaints
+    with pd.ExcelWriter('complaints.xlsx', engine='openpyxl') as excel_writer:
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1322, in __exit__
+    self.close()
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1326, in close
+    self._save()
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/pandas/io/excel/_openpyxl.py", line 109, in _save
+    self.book.save(self._handles.handle)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/openpyxl/workbook/workbook.py", line 386, in save
+    save_workbook(self, filename)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/openpyxl/writer/excel.py", line 294, in save_workbook
+    writer.save()
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/openpyxl/writer/excel.py", line 275, in save
+    self.write_data()
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/openpyxl/writer/excel.py", line 89, in write_data
+    archive.writestr(ARC_WORKBOOK, writer.write())
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/openpyxl/workbook/_writer.py", line 150, in write
+    self.write_views()
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/openpyxl/workbook/_writer.py", line 137, in write_views
+    active = get_active_sheet(self.wb)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/openpyxl/workbook/_writer.py", line 35, in get_active_sheet
+    raise IndexError("At least one sheet must be visible")
+IndexError: At least one sheet must be visible
+2023-06-19 05:13:18,624 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-06-19 05:13:20,166 [DEBUG] urllib3.connectionpool: Starting new HTTP connection (1): api.openweathermap.org:80
+2023-06-19 05:13:20,314 [DEBUG] urllib3.connectionpool: http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 HTTP/1.1" 200 522
+2023-06-19 06:36:59,638 [INFO] django.utils.autoreload: /Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/complaintpreparator/views.py changed, reloading.
+2023-06-19 06:37:00,102 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-06-19 06:37:03,980 [DEBUG] urllib3.connectionpool: Starting new HTTP connection (1): api.openweathermap.org:80
+2023-06-19 06:37:04,272 [DEBUG] urllib3.connectionpool: http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 HTTP/1.1" 200 519
+2023-06-19 06:37:12,983 [ERROR] django.request: Internal Server Error: /complaintpreparator/download-complaints/
+Traceback (most recent call last):
+  File "/Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/complaintpreparator/views.py", line 35, in download_complaints
+    create_styled_excel(df, sheet_name=route_id, excel_writer=excel_writer)
+TypeError: create_styled_excel() got an unexpected keyword argument 'sheet_name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/complaintpreparator/views.py", line 33, in download_complaints
+    with pd.ExcelWriter('complaints.xlsx', engine='openpyxl') as excel_writer:
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1322, in __exit__
+    self.close()
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/pandas/io/excel/_base.py", line 1326, in close
+    self._save()
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/pandas/io/excel/_openpyxl.py", line 109, in _save
+    self.book.save(self._handles.handle)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/openpyxl/workbook/workbook.py", line 386, in save
+    save_workbook(self, filename)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/openpyxl/writer/excel.py", line 294, in save_workbook
+    writer.save()
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/openpyxl/writer/excel.py", line 275, in save
+    self.write_data()
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/openpyxl/writer/excel.py", line 89, in write_data
+    archive.writestr(ARC_WORKBOOK, writer.write())
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/openpyxl/workbook/_writer.py", line 150, in write
+    self.write_views()
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/openpyxl/workbook/_writer.py", line 137, in write_views
+    active = get_active_sheet(self.wb)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/openpyxl/workbook/_writer.py", line 35, in get_active_sheet
+    raise IndexError("At least one sheet must be visible")
+IndexError: At least one sheet must be visible
+2023-06-19 06:47:23,570 [INFO] django.utils.autoreload: /Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/complaintorganizer/utils/style_excel.py changed, reloading.
+2023-06-19 06:47:24,089 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-06-19 07:00:26,102 [INFO] django.utils.autoreload: /Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/complaintpreparator/views.py changed, reloading.
+2023-06-19 07:00:26,607 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-06-19 07:04:15,653 [DEBUG] urllib3.connectionpool: Starting new HTTP connection (1): api.openweathermap.org:80
+2023-06-19 07:04:15,762 [DEBUG] urllib3.connectionpool: http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 HTTP/1.1" 200 519
+2023-06-19 07:04:20,049 [ERROR] django.request: Internal Server Error: /complaintpreparator/download-complaints/
+Traceback (most recent call last):
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/complaintpreparator/views.py", line 35, in download_complaints
+    create_styled_excel_ws(df, sheet_name=route_id, excel_writer=excel_writer)
+  File "/Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/complaintpreparator/utils/style_excel_route_dict.py", line 9, in create_styled_excel_ws
+    color = get_color(df['route'].iloc[0])
+NameError: name 'get_color' is not defined
+2023-06-19 07:05:13,495 [INFO] django.utils.autoreload: /Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/complaintpreparator/utils/style_excel_route_dict.py changed, reloading.
+2023-06-19 07:05:13,968 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-06-19 07:05:15,404 [DEBUG] urllib3.connectionpool: Starting new HTTP connection (1): api.openweathermap.org:80
+2023-06-19 07:05:15,534 [DEBUG] urllib3.connectionpool: http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 HTTP/1.1" 200 519
+2023-06-19 07:32:14,994 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-06-19 07:32:16,558 [DEBUG] urllib3.connectionpool: Starting new HTTP connection (1): api.openweathermap.org:80
+2023-06-19 07:32:16,604 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/urllib3/connection.py", line 200, in _new_conn
+    sock = connection.create_connection(
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/urllib3/connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/urllib3/connectionpool.py", line 496, in _make_request
+    conn.request(
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/urllib3/connection.py", line 388, in request
+    self.endheaders()
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/urllib3/connection.py", line 236, in connect
+    self.sock = self._new_conn()
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/urllib3/connection.py", line 207, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPConnection object at 0x12bb20970>: Failed to resolve 'api.openweathermap.org' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/urllib3/connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/urllib3/util/retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x12bb20970>: Failed to resolve 'api.openweathermap.org' ([Errno 8] nodename nor servname provided, or not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/wastedproject/views.py", line 5, in homepage
+    weather_data = get_weather_data()
+  File "/Users/driesminoodt/PycharmProjects/WASTED4/wastedproject/weather/views.py", line 9, in get_weather_data
+    response = requests.get(url)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/driesminoodt/miniconda3/envs/WASTED4/lib/python3.10/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='api.openweathermap.org', port=80): Max retries exceeded with url: /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x12bb20970>: Failed to resolve 'api.openweathermap.org' ([Errno 8] nodename nor servname provided, or not known)"))
+2023-06-19 07:32:35,360 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-06-19 07:32:36,664 [DEBUG] urllib3.connectionpool: Starting new HTTP connection (1): api.openweathermap.org:80
+2023-06-19 07:32:36,781 [DEBUG] urllib3.connectionpool: http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 HTTP/1.1" 200 516
+2023-06-19 09:09:52,195 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-06-19 09:09:55,684 [DEBUG] urllib3.connectionpool: Starting new HTTP connection (1): api.openweathermap.org:80
+2023-06-19 09:09:55,794 [DEBUG] urllib3.connectionpool: http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 HTTP/1.1" 200 516
+2023-06-19 09:10:01,164 [INFO] complaintorganizer.views: complaint organizer was called - path: /complaintorganizer/download-complaints/, method: GET
+2023-06-19 09:12:19,604 [INFO] complaintorganizer.views: complaint organizer was called - path: /complaintorganizer/download-complaints/, method: POST
+2023-06-19 09:14:12,859 [INFO] complaintorganizer.views: complaint organizer was called - path: /complaintorganizer/download-complaints/, method: POST
+2023-06-19 12:23:55,449 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-06-19 12:23:58,774 [DEBUG] urllib3.connectionpool: Starting new HTTP connection (1): api.openweathermap.org:80
+2023-06-19 12:23:58,936 [DEBUG] urllib3.connectionpool: http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 HTTP/1.1" 200 521
+2023-06-19 12:55:32,406 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-06-19 12:55:34,145 [DEBUG] urllib3.connectionpool: Starting new HTTP connection (1): api.openweathermap.org:80
+2023-06-19 12:55:34,283 [DEBUG] urllib3.connectionpool: http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 HTTP/1.1" 200 521
+2023-06-19 12:55:48,044 [INFO] analytics.views: dashboard_home_routes was called - path: /analytics/dashboard_route/, method: GET
+2023-06-19 12:57:57,766 [INFO] analytics.views: dashboard_view_routes was called - path: /analytics/dashboard_route/view/, method: GET
+2023-06-19 18:05:05,991 [INFO] complaintorganizer.views: complaint organizer was called - path: /complaintorganizer/download-complaints/, method: GET
+2023-06-19 18:05:14,305 [INFO] dabbamaker.views: dabba maker was called - path: /dabbamaker/, method: GET
+2023-06-19 18:05:17,013 [INFO] shiftscheduler.views: shift scheduler was called - path: /shiftscheduler/, method: GET
+2023-06-19 18:05:23,774 [INFO] analytics.views: dashboard_home_routes was called - path: /analytics/dashboard_route/, method: GET
+2023-06-19 18:05:28,101 [INFO] analytics.views: dashboard_view_routes was called - path: /analytics/dashboard_route/view/, method: GET
+2023-06-19 18:07:38,267 [INFO] dabbamaker.views: dabba maker was called - path: /dabbamaker/, method: GET
+2023-06-19 18:07:41,363 [INFO] shiftscheduler.views: shift scheduler was called - path: /shiftscheduler/, method: GET
+2023-06-19 18:07:46,814 [INFO] shiftscheduler.views: shift scheduler was called - path: /shiftscheduler/, method: GET
+2023-06-19 18:07:52,455 [INFO] shiftscheduler.views: shift scheduler was called - path: /shiftscheduler/, method: POST
+2023-06-19 18:10:38,442 [INFO] analytics.views: dashboard_home_routes was called - path: /analytics/dashboard_route/, method: GET
+2023-06-19 18:10:49,813 [INFO] complaintorganizer.views: complaint organizer was called - path: /complaintorganizer/download-complaints/, method: GET
+2023-06-19 18:10:54,059 [INFO] complaintorganizer.views: complaint organizer was called - path: /complaintorganizer/download-complaints/, method: GET
+2023-06-19 18:11:15,888 [INFO] dabbamaker.views: dabba maker was called - path: /dabbamaker/, method: GET
+2023-06-19 18:11:27,340 [INFO] dabbamaker.views: dabba maker was called - path: /dabbamaker/, method: POST
+2023-06-19 18:11:27,583 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-19 18:11:27,730 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Halewijnstationstraat%2054,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-19 18:11:27,737 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-19 18:11:28,380 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Hof%20van%20Eden%2039,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-19 18:11:28,391 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-19 18:11:28,892 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Kapelakker%208,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-19 18:11:28,903 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-19 18:11:29,231 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Rodehoedstraat%2044,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-19 18:11:29,243 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-19 18:11:29,916 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Guldenroedestraat%2014,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-19 18:11:29,925 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-19 18:11:30,428 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Hippoliet%20Van%20Peenestraat%2052,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-19 18:11:30,437 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-19 18:11:30,837 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Tussen%20Heerwegen%2012,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-19 18:11:30,846 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-19 18:11:31,351 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Zandekensstraat%2013,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-19 18:11:31,363 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-19 18:11:31,861 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Blekerijstraat%2053,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-19 18:11:31,870 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-19 18:11:32,234 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Jan%20van%20Hembysebolwerk%206,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-19 18:11:32,245 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-19 18:11:32,886 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Korhoenstraat%202,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-19 18:11:32,896 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-19 18:11:33,400 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Lange%20Violettestraat%20253,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-19 18:11:33,411 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-19 18:11:33,909 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Ramskapellelaan%2018,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-19 18:11:33,919 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-19 18:11:34,224 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Rijsenbergstraat%2074,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-19 18:11:34,233 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-19 18:11:34,831 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Zwartezustersstraat%206,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-19 18:11:34,842 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-19 18:11:35,343 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Benninsbrugstraat%207,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-19 18:11:35,353 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-19 18:11:35,856 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Karekietlaan%201,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-19 18:11:35,865 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-19 18:11:36,367 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Morekstraat%20452,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-19 18:11:36,379 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-19 18:11:36,879 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Achtenkouterstraat%205,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-19 18:11:36,889 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-19 18:11:37,229 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Bruisteke%203,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-19 18:11:37,237 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-19 18:11:37,903 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Gentstraat%20196,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-19 18:11:37,913 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-19 18:11:38,232 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Lourdesstraat%2068,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-19 18:11:38,237 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-19 18:11:38,927 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Lourdesstraat%2087,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-19 18:11:38,937 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-19 18:11:39,330 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Oude%20Holstraat%2019,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-19 18:11:39,338 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-19 18:11:39,849 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Halvemaanstraat%2055,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-19 18:11:39,859 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-19 18:11:40,258 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Lijnmolenstraat%20123,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-19 18:11:40,267 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-19 18:11:40,872 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Nachtegaaldreef%2074,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-19 18:11:40,883 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-19 18:11:41,384 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Waterstraat%20135,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-19 18:11:41,389 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-19 18:11:41,897 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Waterstraat%20165,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-19 18:11:41,906 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-19 18:11:42,304 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Braemstraat%20161,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-19 18:11:42,313 [DEBUG] urllib3.connectionpool: Starting new HTTPS connection (1): nominatim.openstreetmap.org:443
+2023-06-19 18:11:42,921 [DEBUG] urllib3.connectionpool: https://nominatim.openstreetmap.org:443 "GET /search?q=Hutsepotstraat%2089,%20Ghent,%20Belgium&format=json HTTP/1.1" 200 None
+2023-06-19 18:11:48,045 [INFO] dabbamaker.views: dabba maker was called - path: /dabbamaker/, method: GET
+2023-06-19 18:13:57,594 [DEBUG] urllib3.connectionpool: Starting new HTTP connection (1): api.openweathermap.org:80
+2023-06-19 18:13:57,665 [DEBUG] urllib3.connectionpool: http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 HTTP/1.1" 200 517
+2023-06-19 18:35:24,781 [INFO] analytics.views: dashboard_home_fractions was called - path: /analytics/dashboard_fraction/, method: GET
+2023-06-19 18:36:10,497 [INFO] analytics.views: dashboard_view_fractions was called - path: /analytics/dashboard_fraction/view/, method: GET
+2023-06-19 18:39:28,796 [INFO] analytics.views: dashboard_view_fractions was called - path: /analytics/dashboard_fraction/view/, method: GET
+2023-06-19 18:40:46,179 [INFO] analytics.views: dashboard_home_routes was called - path: /analytics/dashboard_route/, method: GET
+2023-06-19 18:40:49,852 [INFO] dabbamaker.views: dabba maker was called - path: /dabbamaker/, method: GET
+2023-06-19 18:40:52,584 [INFO] shiftscheduler.views: shift scheduler was called - path: /shiftscheduler/, method: GET
+2023-06-19 18:40:56,595 [DEBUG] urllib3.connectionpool: Starting new HTTP connection (1): api.openweathermap.org:80
+2023-06-19 18:40:56,668 [DEBUG] urllib3.connectionpool: http://api.openweathermap.org:80 "GET /data/2.5/weather?q=Ghent&appid=00c79b3186249ab2cdc9a9fde3aa21f5 HTTP/1.1" 200 521

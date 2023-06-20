@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% block content %}
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+</head>
+
+<style>
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        background: #3a4750;
+        color: #fff;
+        font-size: 2em;
+    }
+
+    .centered-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .centered-form form {
+        max-width: 400px;
+        width: 100%;
+        padding: 20px;
+        box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        background: white;
+        text-align: center;
+    }
+</style>
+
+<div class="header">
+    ANALYTICS/FRACTIONS
+</div>
+
+<div class="centered-form">
+    <form action="{% url 'analytics:dashboard_view_fractions' %}" method="get">
+        {{ form.fraction.label_tag }}
+        {{ form.fraction }}
+        <br>
+        {{ form.area.label_tag }}
+        {{ form.area }}
+        <br>
+         {{ form.day_of_week.label_tag }}
+        {{ form.day_of_week }}
+        <br>
+        {{ form.start_date.label_tag }}
+        {{ form.start_date }}
+        <br>
+        {{ form.end_date.label_tag }}
+        {{ form.end_date }}
+        <br>
+        <input type="submit" value="Search">
+    </form>
+</div>
+
+<script>
+    $(function() {
+        $("#start_date").datepicker();
+        $("#end_date").datepicker();
+    });
+</script>
+{% endblock %}
