@@ -72,7 +72,8 @@ class OrderQuerySet(QuerySet):
         return pd.DataFrame({'bin': bins[:-1], 'count': counts})
 
     # Functions for fraction_analysis
-    def weight_df_fraction(self, fraction, city_or_rural=None, day_of_week=None, start_date=None, end_date=None):
+    def weight_df_fraction(self, fraction, city_or_rural=None, day_of_week=None, start_date=None, end_date=None,
+                           calendar=None):
         queryset = self.filter(route__fraction=fraction)
         if city_or_rural:
             queryset = queryset.filter(route__city_or_rural=city_or_rural)
@@ -82,11 +83,13 @@ class OrderQuerySet(QuerySet):
             queryset = queryset.filter(date__lte=end_date)
         if day_of_week:
             queryset = queryset.filter(route__day_of_week=day_of_week)
+        if calendar:
+            queryset = queryset.filter(route__calendar=calendar)
 
         data = queryset.values('date', 'route_id', 'weight').order_by('date')
         return pd.DataFrame.from_records(data)
 
-    def weight_df_fraction_month(self, fraction, city_or_rural=None, day_of_week=None, start_date=None, end_date=None):
+    def weight_df_fraction_month(self, fraction, city_or_rural=None, day_of_week=None, start_date=None, end_date=None, calendar=None):
         queryset = self.filter(route__fraction=fraction)
         if city_or_rural:
             queryset = queryset.filter(route__city_or_rural=city_or_rural)
@@ -96,6 +99,8 @@ class OrderQuerySet(QuerySet):
             queryset = queryset.filter(date__lte=end_date)
         if day_of_week:
             queryset = queryset.filter(route__day_of_week=day_of_week)
+        if calendar:
+            queryset = queryset.filter(route__calendar=calendar)
         data = queryset.values('date').annotate(total_weight=Sum('weight')).order_by('date')
         df = pd.DataFrame.from_records(data)
 
@@ -108,7 +113,7 @@ class OrderQuerySet(QuerySet):
         df.reset_index(drop=True, inplace=True)
         return df
 
-    def total_weight_fraction(self, fraction, city_or_rural=None, day_of_week=None, start_date=None, end_date=None):
+    def total_weight_fraction(self, fraction, city_or_rural=None, day_of_week=None, start_date=None, end_date=None, calendar=None):
         queryset = self.filter(route__fraction=fraction)
         if city_or_rural:
             queryset = queryset.filter(route__city_or_rural=city_or_rural)
@@ -118,11 +123,13 @@ class OrderQuerySet(QuerySet):
             queryset = queryset.filter(date__lte=end_date)
         if day_of_week:
             queryset = queryset.filter(route__day_of_week=day_of_week)
+        if calendar:
+            queryset = queryset.filter(route__calendar=calendar)
         return queryset.aggregate(total_weight=Sum('weight'))['total_weight']
 
-    def get_stats_for_fraction(self, fraction, city_or_rural=None, day_of_week=None, start_date=None, end_date=None):
-        df_month = self.weight_df_fraction_month(fraction, city_or_rural, day_of_week, start_date, end_date)
-        df_day = self.weight_df_fraction(fraction, city_or_rural, day_of_week, start_date, end_date)
+    def get_stats_for_fraction(self, fraction, city_or_rural=None, day_of_week=None, start_date=None, end_date=None, calendar=None):
+        df_month = self.weight_df_fraction_month(fraction, city_or_rural, day_of_week, start_date, end_date, calendar)
+        df_day = self.weight_df_fraction(fraction, city_or_rural, day_of_week, start_date, end_date, calendar)
 
         weights_month = df_month['total_weight'].values
         weights_day = df_day['weight'].values
@@ -141,7 +148,7 @@ class OrderQuerySet(QuerySet):
 
         return {**stats_day, **stats_month}
 
-    def total_weight_fraction_per_route(self, fraction, city_or_rural=None, day_of_week=None, start_date=None, end_date=None):
+    def total_weight_fraction_per_route(self, fraction, city_or_rural=None, day_of_week=None, start_date=None, end_date=None, calendar=None):
         queryset = self.filter(route__fraction=fraction)
         if city_or_rural:
             queryset = queryset.filter(route__city_or_rural=city_or_rural)
@@ -151,9 +158,11 @@ class OrderQuerySet(QuerySet):
             queryset = queryset.filter(date__lte=end_date)
         if day_of_week:
             queryset = queryset.filter(route__day_of_week=day_of_week)
+        if calendar:
+            queryset = queryset.filter(route__calendar=calendar)
         return queryset.values('route_id').annotate(total_weight=Sum('weight')).order_by('-total_weight')
 
-    def daily_weight_fraction_per_route(self, fraction, city_or_rural=None, day_of_week=None, start_date=None, end_date=None):
+    def daily_weight_fraction_per_route(self, fraction, city_or_rural=None, day_of_week=None, start_date=None, end_date=None, calendar=None):
         queryset = self.filter(route__fraction=fraction)
         if city_or_rural:
             queryset = queryset.filter(route__city_or_rural=city_or_rural)
@@ -163,10 +172,12 @@ class OrderQuerySet(QuerySet):
             queryset = queryset.filter(date__lte=end_date)
         if day_of_week:
             queryset = queryset.filter(route__day_of_week=day_of_week)
+        if calendar:
+            queryset = queryset.filter(route__calendar=calendar)
         return queryset.values('date', 'route_id').annotate(daily_weight=Sum('weight')).order_by('date', 'route_id')
 
-    def top_5_routes_by_weight(self, fraction, city_or_rural=None, day_of_week=None, start_date=None, end_date=None):
-        queryset = self.total_weight_fraction_per_route(fraction, city_or_rural, day_of_week, start_date, end_date)
+    def top_5_routes_by_weight(self, fraction, city_or_rural=None, day_of_week=None, start_date=None, end_date=None, calendar=None):
+        queryset = self.total_weight_fraction_per_route(fraction, city_or_rural, day_of_week, start_date, end_date, calendar)
         return queryset[:5]
 
 

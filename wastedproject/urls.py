@@ -31,6 +31,9 @@ urlpatterns = [
     path('analytics/', include('analytics.urls')),
     path('wastedbot/', include('wastedbot.urls')),
     path('complaintorganizer/', include('complaintorganizer.urls')),
-    path('complaintpreparator/', include('complaintpreparator.urls'))
+    path('complaintpreparator/', include('complaintpreparator.urls')),
+    path('routenotfinished/', include('routenotfinished.urls')),
+    path('vehicleseeker2/', include('vehicleseeker2.urls')),
+
 
 ]

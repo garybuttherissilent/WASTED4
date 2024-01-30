@@ -47,7 +47,10 @@ INSTALLED_APPS = [
     'weather',
     'complaintorganizer',
     'complaintpreparator',
-    'wastedbot'
+    'wastedbot',
+    'routenotfinished',
+    'complaintscheduler',
+    'vehicleseeker2'
 ]
 
 MIDDLEWARE = [
@@ -94,6 +97,8 @@ DATABASES = {
     'PORT': '5432'
     }
 }
+
+
 
 
 

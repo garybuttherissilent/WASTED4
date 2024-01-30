@@ -4,7 +4,7 @@ from .models import Route, Order, StreetAddress, RouteStreetAddress
 class RouteSerializer(serializers.ModelSerializer):
     class Meta:
         model = Route
-        fields = ['route_id', 'fraction', 'area', 'city_or_rural', 'day_of_week']
+        fields = ['route_id', 'fraction', 'area', 'city_or_rural', 'day_of_week', 'calendar']
 
 class OrderSerializer(serializers.ModelSerializer):
     class Meta:
@@ -14,7 +14,7 @@ class OrderSerializer(serializers.ModelSerializer):
 class StreetAddressSerializer(serializers.ModelSerializer):
     class Meta:
         model = StreetAddress
-        fields = ['address_id', 'street_name', 'zip_code', 'purpose', 'area', 'latitude', 'longitude']
+        fields = ['address_id', 'street_name', 'zip_code', 'purpose', 'area', 'even_range', 'odd_range']
 
 class RouteStreetAddressSerializer(serializers.ModelSerializer):
     class Meta:

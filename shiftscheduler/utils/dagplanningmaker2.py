@@ -39,13 +39,22 @@ def dagplanningmaker(file):
     # GEWENSTE VOLGORDE VAN DE FRACTIES
 
     huisvuil = df[df['Route'].str.contains("HHRESZ|HHPMD|HHRESK|HHRES AFR")]
-    diftar = df[df['Route'].str.contains("HHGFZC|HHGFZZ|HHRESC")]
-    papier = df[df['Route'].str.contains("HHPAP")]
+    diftar = df[df['Route'].str.contains("HHGFZC|HHGFZZ|HHRESC|HHGFT AFR")]
+
+    # Separate the HHCLUS rows from the papier DataFrame
+    papier_hhclus = df[df['Route'].str.contains("HHCLUS")]
+    papier_without_hhclus = df[df['Route'].str.contains("HHPAP") & ~df['Route'].str.contains("HHCLUS")]
+
+    # Append the HHCLUS rows to the end of the papier DataFrame
+    papier = pd.concat([papier_without_hhclus, papier_hhclus], axis=0)
+
     glas = df[df['Route'].str.contains("HHGLS")]
     grof = df[df['Route'].str.contains("HHGV|HHGHSV")]
     bedrijf = df[df['Route'].str.contains("BA")]
     trucks = df[df['Route'].str.contains("AA")]
     ondergronds = df[df['Route'].str.contains("OC")]
+
+
 
     # NIEUWE RIJEN TOEVOEGEN VOOR HEADERS
 

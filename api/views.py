@@ -26,6 +26,15 @@ class StreetAddressViewSet(viewsets.ModelViewSet):
         return queryset
 
 
+# api.views
+
 class RouteStreetAddressViewSet(viewsets.ModelViewSet):
     queryset = RouteStreetAddress.objects.all()
     serializer_class = RouteStreetAddressSerializer
+
+    def get_queryset(self):
+        queryset = RouteStreetAddress.objects.all()
+        route_param = self.request.query_params.get('route', None)
+        if route_param is not None:
+            queryset = queryset.filter(route__route_id=route_param)
+        return queryset

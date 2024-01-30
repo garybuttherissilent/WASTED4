@@ -9,6 +9,7 @@ class Route(models.Model):
     area = models.CharField(max_length=50)
     day_of_week = models.IntegerField()
     city_or_rural = models.CharField(max_length=50)
+    calendar = models.CharField(max_length=50)
 
 
 class Order(models.Model):
@@ -26,8 +27,8 @@ class StreetAddress(models.Model):
     zip_code = models.CharField(max_length=10)
     purpose = models.CharField(max_length=100)
     area = models.CharField(max_length=100)
-    latitude = models.FloatField(null=True, blank=True)
-    longitude = models.FloatField(null=True, blank=True)
+    even_range = models.CharField(max_length=20, null=True, blank=True)
+    odd_range = models.CharField(max_length=20, null=True, blank=True)
 
 class RouteStreetAddress(models.Model):
     route = models.ForeignKey(Route, on_delete=models.CASCADE)
@@ -51,6 +52,4 @@ class Complaint(models.Model):
         return self.route.fraction
 
     objects = ComplaintQuerySet.as_manager()
-
-
 

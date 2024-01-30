@@ -11,5 +11,6 @@ class FractionSearchForm(forms.Form):
                              required=False)
     day_of_week = forms.ChoiceField(choices=[('', '---'), ('1', 'maandag'), ('2', 'dinsdag'), ('4', 'donderdag'), ('5', 'vrijdag')],
                              required=False)
+    calendar = forms.ChoiceField(choices=[('', '---'), ('A', 'A'), ('B', 'B')], required=False)
     start_date = forms.DateField(required=False, widget=forms.DateInput(attrs={'type': 'date'}))
     end_date = forms.DateField(required=False, widget=forms.DateInput(attrs={'type': 'date'}))

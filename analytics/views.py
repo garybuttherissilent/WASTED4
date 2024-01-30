@@ -88,7 +88,6 @@ def dashboard_home_fractions(request):
     form = FractionSearchForm()
     return render(request, 'dashboard_home_fractions.html', {'form': form})
 
-
 def dashboard_view_fractions(request):
     logger.info(
         'dashboard_view_fractions was called - path: %s, method: %s',
@@ -102,16 +101,18 @@ def dashboard_view_fractions(request):
         day_of_week = form.cleaned_data['day_of_week']
         start_date = form.cleaned_data['start_date']
         end_date = form.cleaned_data['end_date']
+        calendar = form.cleaned_data.get('calendar')  # Get the calendar value if present
 
-        # Get data for all widgets
-        df = Order.objects.weight_df_fraction_month(fraction, city_or_rural, day_of_week, start_date, end_date)
-        total_weight = Order.objects.total_weight_fraction(fraction, city_or_rural, day_of_week, start_date, end_date)
-        stats = Order.objects.get_stats_for_fraction(fraction, city_or_rural, day_of_week, start_date, end_date)
+
+        # Get data for all widgets using the filtered routes
+        df = Order.objects.weight_df_fraction_month(fraction, city_or_rural, day_of_week, start_date, end_date, calendar)
+        total_weight = Order.objects.total_weight_fraction(fraction, city_or_rural, day_of_week, start_date, end_date, calendar)
+        stats = Order.objects.get_stats_for_fraction(fraction, city_or_rural, day_of_week, start_date, end_date, calendar)
 
         # New data for charts and lists
-        route_weights = Order.objects.total_weight_fraction_per_route(fraction, city_or_rural, day_of_week, start_date, end_date)
-        daily_weights = Order.objects.daily_weight_fraction_per_route(fraction, city_or_rural,day_of_week, start_date, end_date)
-        top_5_routes_by_weight = Order.objects.top_5_routes_by_weight(fraction, city_or_rural, day_of_week, start_date, end_date)
+        route_weights = Order.objects.total_weight_fraction_per_route(fraction, city_or_rural, day_of_week, start_date, end_date, calendar)
+        daily_weights = Order.objects.daily_weight_fraction_per_route(fraction, city_or_rural, day_of_week, start_date, end_date, calendar)
+        top_5_routes_by_weight = Order.objects.top_5_routes_by_weight(fraction, city_or_rural, day_of_week, start_date, end_date, calendar)
 
         # Plotly - Bar Chart
         trace = go.Bar(x=df['date'], y=df['total_weight'], name='Weight')
@@ -142,6 +143,6 @@ def dashboard_view_fractions(request):
                                'daily_weights': daily_weights,
                                'top_5_routes_by_weight': top_5_routes_by_weight,
                                'pie_plot_div': pie_plot_div,
-                               'fraction' : fraction})
+                               'fraction': fraction})
     else:
         return redirect('analytics:dashboard_home')

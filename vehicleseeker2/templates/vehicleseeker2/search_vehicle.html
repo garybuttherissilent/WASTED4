@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+
+{% block content %}
+<head>
+    <style>
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #3a4750;
+            color: #fff;
+            font-size: 2em;
+            padding: 20px;
+        }
+        .container {
+            margin-top: 20px;
+        }
+        .card {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .form-container {
+            display: flex;
+            flex-direction: column; /* Stack elements vertically */
+            align-items: center; /* Center align items */
+        }
+        .table-container {
+            overflow-x: auto;
+            width: 100%;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 1em;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #3a4750;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(odd) {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<div class="header">TOOLS/VEHICLESEEKER</div>
+<div class="container">
+    <div class="card">
+        <div class="card-body">
+            <form method="post" class="form-container">
+                {% csrf_token %}
+                <div class="form-group">
+                    <input type="text" name="vehicle_query" class="form-control" placeholder="Enter vehicle number...">
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Search</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    {% if result_html %}
+        <div class="table-container">
+            {{ result_html|safe }}
+        </div>
+    {% endif %}
+</div>
+{% endblock %}
